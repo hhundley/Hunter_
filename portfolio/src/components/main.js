@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/main.css';
-import logo from '../My project-1 (1).png';
+import logo from '../HHH thin.png';
 import rocket from '../rocket-1.png';
 
 function Main() {
