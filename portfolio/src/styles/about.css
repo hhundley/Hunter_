@@ -1,0 +1,22 @@
+#about {
+    margin-top: 15vh;
+    background: linear-gradient(white,grey);
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+.hunter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+p {
+    padding-top: 2%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    text-align: center;
+}
