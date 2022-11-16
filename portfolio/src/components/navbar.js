@@ -6,7 +6,7 @@ import '../styles/navigation.css';
 function Navigation() {
     return (
         <Navbar className="ms-3 me-3" expand="lg" sticky="top" >
-            <Navbar.Brand href="#top">hunter_</Navbar.Brand>
+            <Navbar.Brand href="/#top">hunter_</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="flex-grow-1 justify-content-evenly">

@@ -5,18 +5,68 @@
     padding-top: 5%;
 }
 
-.hunter {
+#webpic {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 20%;
 }
 
+#mobilepic {
+    display: none;
+}
+
 p {
-    padding-top: 2%;
+    font-size: 20px;
+    padding:2%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
-    text-align: center;
+    width: 60%;
+    text-align: left;
+    font-weight: bolder;
+    margin-bottom: 0;
 }
+
+#business {
+    margin-left:5%;
+    width:500px;
+    margin-bottom:0
+}
+
+#fun {
+    margin-right:5%;
+    width:500px;
+}
+
+.bigger {
+    font-size:30px;
+}
+
+@media screen and (max-width: 800px){
+    
+    #business {
+        margin-left:10%;
+        width:60%;
+        font-size:small;
+        text-align:left
+    }
+    
+    #fun {
+        margin-left:10%;
+        width:60%;
+        font-size:small;
+        text-align:left
+    }
+
+    #mobilepic {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 20%;
+    }
+
+    #webpic {
+        display:none;
+    }
+ }
