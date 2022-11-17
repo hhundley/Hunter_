@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import '../styles/work.css';
-import bike from '../bike unsplash.jpg';
-import concert from '../austin-neill-kKlVSrFbjYY-unsplash.jpg';
-import weather from '../ken-cheung-KonWFWUaAuk-unsplash.jpg';
-import videogame from '../Videogame Unsplash.jpg';
+import bike from '../images/bike unsplash.jpg';
+import concert from '../images/austin-neill-kKlVSrFbjYY-unsplash.jpg';
+import weather from '../images/ken-cheung-KonWFWUaAuk-unsplash.jpg';
+import videogame from '../images/Videogame Unsplash.jpg';
 
 function Work() {
 

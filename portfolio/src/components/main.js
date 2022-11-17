@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/main.css';
-import logo from '../HHH thin.png';
-import rocket from '../rocket-1.png';
+import logo from '../images/HHH thin.png';
+import rocket from '../images/rocket-1.png';
 
 function Main() {
     return (

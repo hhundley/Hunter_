@@ -1,6 +1,7 @@
 import React,{useRef} from 'react';
 import '../styles/contact.css';
 import emailjs from '@emailjs/browser'
+import env from "react-dotenv";
 
 const Contact = () => {
     const form = useRef();
@@ -8,12 +9,12 @@ const Contact = () => {
     const onSubmit = (e) => {
     e.preventDefault()
 
-    emailjs.sendForm('service_8iek2zr','template_hbzjwh7',form.current,'juroUeYqFqyKEL-IM')
+    emailjs.sendForm(env.SERVICE_ID,env.TEMPLATE_ID,form.current,env.PUBLIC_KEY)
     setFormStatus('⚡ Sent ⚡')
   }
   return (
     <div className="container mt-5">
-      <h2 className="mb-3">Contact</h2>
+      <h2 className="contact-text mb-3">Contact</h2>
       <form ref={form} onSubmit={onSubmit}>
         <div className="mb-3">
           <label className="form-label" htmlFor="name">
