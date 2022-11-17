@@ -3,17 +3,32 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import '../styles/navigation.css';
 
-function Navigation() {
+function Navigation({pageState,setPageState}) {
+    const handleBrand = () => {
+        setPageState({...pageState,about:false,main:true,work:false,contact:false})
+    }
+    
+    const handleAbout = () => {
+        setPageState({...pageState,about:true,main:false,work:false,contact:false})
+    }
+
+    const handleWork = () => {
+        setPageState({...pageState,about:false,main:false,work:true,contact:false})
+    }
+
+    const handleContact = () => {
+        setPageState({...pageState,about:false,main:false,work:false,contact:true})
+    }
+
     return (
         <Navbar className="ms-3 me-3" expand="lg" sticky="top" >
-            <Navbar.Brand href="/#top">hunter_</Navbar.Brand>
+            <Navbar.Brand href="#" onClick={handleBrand}>hunter_</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="flex-grow-1 justify-content-evenly">
-                <Nav.Link href="#about">About</Nav.Link>
-                <Nav.Link href="#work">Work</Nav.Link>
-                <Nav.Link href="#about">CV</Nav.Link>
-                <Nav.Link href="#contact">Contact</Nav.Link>
+                <Nav.Link href="#" onClick={handleAbout}>About</Nav.Link>
+                <Nav.Link href="#" onClick={handleWork}>Work</Nav.Link>
+                <Nav.Link href="#" onClick={handleContact}>Contact</Nav.Link>
             </Nav>
             </Navbar.Collapse>
         </Navbar>

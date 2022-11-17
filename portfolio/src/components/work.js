@@ -18,7 +18,7 @@ function Work() {
         <Carousel variant="dark" activeIndex={index} onSelect={handleSelect}>
         <Carousel.Item>
           <img
-            className="d-block w-75"
+            className="d-block w-50"
             id="slide-img"
             src={bike}
             alt="First slide"
@@ -30,7 +30,7 @@ function Work() {
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="d-block w-75"
+            className="d-block w-50"
             id="slide-img"
             src={weather}
             alt="Second slide"
@@ -44,7 +44,7 @@ function Work() {
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="d-block w-75"
+            className="d-block w-50"
             id="slide-img"
             src={concert}
             alt="Third slide"
@@ -57,7 +57,7 @@ function Work() {
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="d-block w-75"
+            className="d-block w-50"
             id="slide-img"
             src={videogame}
             alt="Third slide"

@@ -1,7 +1,5 @@
 #about {
-    margin-top: 15vh;
     background-color:white;
-    padding-top: 5%;
 }
 
 #webpic {
@@ -24,7 +22,6 @@ p {
     margin-right: auto;
     width: 60%;
     text-align: left;
-    font-weight: bolder;
     margin-bottom: 0;
 }
 
