@@ -6,6 +6,7 @@ import rocket from '../rocket-1.png';
 function Main() {
     return (
         <header className="App-main">
+            {/* eslint-disable-next-line */}
             <a name="top"></a>
             <img src={logo} className="Logo" alt="logo" />
             <img src={rocket} className="rocket" alt="rocket" />

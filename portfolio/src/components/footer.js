@@ -21,7 +21,7 @@ function Footer() {
           
         </div>
 
-        <div className="text-center text-black p-5" id="copy">
+        <div className="text-center text-black p-2" id="copy">
             © 2022 Hunter Hundley
         </div>
     
