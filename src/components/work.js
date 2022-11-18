@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Carousel from 'react-bootstrap/Carousel';
+import Carousel from 'react-bootstrap/esm/Carousel';
 import '../styles/work.css';
 import bike from '../images/bike unsplash.jpg';
 import concert from '../images/austin-neill-kKlVSrFbjYY-unsplash.jpg';
