@@ -51,7 +51,7 @@ function Work() {
           />
   
           <Carousel.Caption id="slide-text">
-          <p id="slide-font-size"><span className="bigger-slide-text"><a id="work-link" href="https://hhundley.github.io/simple-weather-app/" target="_blank" rel="noopener noreferrer">Ticket Scholar</a></span></p>
+          <p id="slide-font-size"><span className="bigger-slide-text"><a id="work-link" href="https://hhundley.github.io/Ticket-Scholars/" target="_blank" rel="noopener noreferrer">Ticket Scholar</a></span></p>
             <p id="slide-font-size">a concert finder.</p>
           </Carousel.Caption>
         </Carousel.Item>
