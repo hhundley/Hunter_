@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Hunter_/static/css/main.ccd3053c.css",
+    "main.js": "/Hunter_/static/js/main.76257921.js",
+    "static/js/787.1ed0c42c.chunk.js": "/Hunter_/static/js/787.1ed0c42c.chunk.js",
+    "static/media/hunter.png": "/Hunter_/static/media/hunter.598ba611edaba05aaebc.png",
+    "static/media/austin-neill-kKlVSrFbjYY-unsplash.jpg": "/Hunter_/static/media/austin-neill-kKlVSrFbjYY-unsplash.20fc6e2f0fc791ac093a.jpg",
+    "static/media/Videogame Unsplash.jpg": "/Hunter_/static/media/Videogame Unsplash.cc6a055cdbf777260227.jpg",
+    "static/media/ken-cheung-KonWFWUaAuk-unsplash.jpg": "/Hunter_/static/media/ken-cheung-KonWFWUaAuk-unsplash.06a5e51525fe89806bec.jpg",
+    "static/media/bike unsplash.jpg": "/Hunter_/static/media/bike unsplash.cfa3b3f99a49d57e310d.jpg",
+    "static/media/HHH thin.png": "/Hunter_/static/media/HHH thin.abfbba6d684deb17ad02.png",
+    "static/media/rocket-1.png": "/Hunter_/static/media/rocket-1.8b6d0a9d1d4bfec14875.png",
+    "static/media/instagram.svg": "/Hunter_/static/media/instagram.4d969dd141d389ed7a2fe7584b56d681.svg",
+    "index.html": "/Hunter_/index.html",
+    "static/media/github.svg": "/Hunter_/static/media/github.22e65707326e3e1e37afd21c5334995a.svg",
+    "static/media/linkedin.svg": "/Hunter_/static/media/linkedin.2eda7bddaacee15c44494bb63ca94165.svg",
+    "main.ccd3053c.css.map": "/Hunter_/static/css/main.ccd3053c.css.map",
+    "main.76257921.js.map": "/Hunter_/static/js/main.76257921.js.map",
+    "787.1ed0c42c.chunk.js.map": "/Hunter_/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ccd3053c.css",
+    "static/js/main.76257921.js"
+  ]
+}
