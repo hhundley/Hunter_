@@ -13,7 +13,7 @@ const Contact = () => {
     setFormStatus('⚡ Sent ⚡')
   }
   return (
-    <div className="container mt-5">
+    <div className="container mt-5 container mt-5 animate__animated animate__fadeInUp">
       <h2 className="contact-text mb-3">Contact</h2>
       <form ref={form} onSubmit={onSubmit}>
         <div className="mb-3">

@@ -7,7 +7,7 @@ import linkedin from '../images/linkedin.svg';
 
 function Footer() {
     return(
-        <footer>
+        <footer className="animate__animated animate__fadeInUp">
         <div className="container d-flex justify-content-center py-5">
             <div className="mx-2">
             <a href="https://github.com/hhundley" target="_blank" rel="noopener noreferrer"><img src={github} id="github" alt="github" /></a>

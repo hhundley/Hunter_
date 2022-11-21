@@ -1,46 +1,39 @@
-#slide-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10%;
+
+#project-description {
+    display: inline;
+    font-size:1.5vw;
+    margin-bottom: 10%;
+    color:grey
 }
 
-#slide-text {
-    color:white;
-
+#work-p {
+    margin-top: 6%;
+    margin-bottom: 0;
 }
 
-#slide-font-size {
-    position: relative;
-    font-size:2vw;
-    margin-left:15%;
-}
-
-.bigger-slide-text {
+.bigger-text {
     font-weight: bolder;
     font-size: 4vw;
-    margin-bottom:0;
-    color:white;
-
-}
-
-.bigger-slide-text:hover {
-    text-shadow: 20px;
-}
-
-.smaller {
-    font-size: small;
-    font-style: italic;
 }
 
 #work-link {
     text-decoration: none;
-    color:white 
+    color:grey;
+    
 }
 
 #work-link:hover {
-    text-shadow: 30px;
-    color:white;
-    font-size:5vw;
+    color:black;
+    font-size:7vw;
+}
+
+#work-link:hover #project-description {
+    color:black;
+}
+
+
+.work-text {
+    font-size: 8vw;
+    font-weight: bolder;
 }
 

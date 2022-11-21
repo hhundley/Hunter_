@@ -9,7 +9,7 @@ function Main() {
             {/* eslint-disable-next-line */}
             <a name="top"></a>
             <img src={logo} className="Logo" alt="logo" />
-            <img src={rocket} className="rocket" alt="rocket" />
+            <img src={rocket} className="rocket animate__animated animate__fadeInBottomLeft" alt="rocket" />
         </header>
     );
 }
