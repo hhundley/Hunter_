@@ -1,19 +1,18 @@
 
 #project-description {
     display: inline;
-    font-size:1.5vw;
-    margin-bottom: 10%;
-    color:grey
+    font-size:3vw;
+    color:lightgray;
 }
 
 #work-p {
     margin-top: 6%;
-    margin-bottom: 0;
+    margin-bottom: -4%;
 }
 
 .bigger-text {
     font-weight: bolder;
-    font-size: 4vw;
+    font-size: 8vw;
 }
 
 #work-link {
@@ -23,8 +22,8 @@
 }
 
 #work-link:hover {
-    color:black;
-    font-size:7vw;
+    color:red;
+    font-size:9vw;
 }
 
 #work-link:hover #project-description {
