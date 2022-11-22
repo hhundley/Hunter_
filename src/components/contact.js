@@ -5,7 +5,7 @@ import env from "react-dotenv";
 
 const Contact = () => {
     const form = useRef();
-    const [formStatus, setFormStatus] = React.useState('Send_')
+    const [formStatus, setFormStatus] = React.useState('Send')
     const onSubmit = (e) => {
     e.preventDefault()
 

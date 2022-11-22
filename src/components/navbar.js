@@ -21,7 +21,7 @@ function Navigation({pageState,setPageState}) {
     }
 
     return (
-        <Navbar className="ms-3 me-3" expand="md" sticky="top" >
+        <Navbar className="ms-3 me-3" expand="sm">
             <Navbar.Brand href="#" onClick={handleBrand}>hunter_</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
