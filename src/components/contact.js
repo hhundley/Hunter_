@@ -38,6 +38,10 @@ const Contact = () => {
           {formStatus}
         </button>
       </form>
+
+      {/* remove later */}
+      <br></br>OR <br></br>email me here: hunter.hundley22@gmail.com <br></br> call me here: (512) 569-1313
+
     </div>
   )
 }

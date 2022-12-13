@@ -2,6 +2,7 @@ import React from 'react';
 import Nav from 'react-bootstrap/esm/Nav';
 import Navbar from 'react-bootstrap/esm/Navbar';
 import '../styles/navigation.css';
+import CV from '../images/Software Engineer CV.pdf'
 
 function Navigation({pageState,setPageState}) {
     const handleBrand = () => {
@@ -29,6 +30,7 @@ function Navigation({pageState,setPageState}) {
                 <Nav.Link href="#" onClick={handleAbout}>About</Nav.Link>
                 <Nav.Link href="#" onClick={handleWork}>Work</Nav.Link>
                 <Nav.Link href="#" onClick={handleContact}>Contact</Nav.Link>
+                <Nav.Link href={CV} download="Hundley_CV.pdf" target="_blank">CV</Nav.Link>
             </Nav>
             </Navbar.Collapse>
         </Navbar>

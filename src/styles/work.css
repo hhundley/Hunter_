@@ -2,7 +2,7 @@
 #project-description {
     display: inline;
     font-size:3vw;
-    color:lightgray;
+    color:darkgray;
 }
 
 #work-p {
@@ -17,7 +17,7 @@
 
 #work-link {
     text-decoration: none;
-    color:grey;
+    color:dimgrey;
     
 }
 
@@ -36,3 +36,18 @@
     font-weight: bolder;
 }
 
+#project-links{
+    display: block;
+    font-size:1.5vw;
+    color:lightgray;
+    margin-top: -.5%;
+}
+
+#proj-link {
+    text-decoration: none;
+    color:lightgrey;
+}
+
+#proj-link:hover {
+    color:red;
+}
