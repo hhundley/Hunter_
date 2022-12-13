@@ -9,7 +9,7 @@ window.env = {
   "HOMEBREW_REPOSITORY": "/opt/homebrew",
   "npm_config_metrics_registry": "https://registry.npmjs.org/",
   "npm_config_global_prefix": "/usr/local",
-  "TERM_PROGRAM_VERSION": "1.73.1",
+  "TERM_PROGRAM_VERSION": "1.74.0",
   "MallocNanoZone": "0",
   "ORIGINAL_XDG_CURRENT_DESKTOP": "undefined",
   "ZDOTDIR": "/Users/hunterhundley",
