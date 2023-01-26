@@ -1,22 +1,21 @@
 {
   "files": {
     "main.css": "/Hunter_/static/css/main.058e78d8.css",
-    "main.js": "/Hunter_/static/js/main.b76f74f6.js",
+    "main.js": "/Hunter_/static/js/main.d32c096c.js",
     "static/js/787.1ed0c42c.chunk.js": "/Hunter_/static/js/787.1ed0c42c.chunk.js",
     "static/media/hunter.png": "/Hunter_/static/media/hunter.598ba611edaba05aaebc.png",
     "static/media/HHH thin.png": "/Hunter_/static/media/HHH thin.abfbba6d684deb17ad02.png",
     "static/media/rocket-1.png": "/Hunter_/static/media/rocket-1.8b6d0a9d1d4bfec14875.png",
-    "static/media/Software Engineer CV.pdf": "/Hunter_/static/media/Software Engineer CV.615183a19ba86b7d54c7.pdf",
     "static/media/instagram.svg": "/Hunter_/static/media/instagram.4d969dd141d389ed7a2fe7584b56d681.svg",
     "index.html": "/Hunter_/index.html",
     "static/media/github.svg": "/Hunter_/static/media/github.22e65707326e3e1e37afd21c5334995a.svg",
     "static/media/linkedin.svg": "/Hunter_/static/media/linkedin.2eda7bddaacee15c44494bb63ca94165.svg",
     "main.058e78d8.css.map": "/Hunter_/static/css/main.058e78d8.css.map",
-    "main.b76f74f6.js.map": "/Hunter_/static/js/main.b76f74f6.js.map",
+    "main.d32c096c.js.map": "/Hunter_/static/js/main.d32c096c.js.map",
     "787.1ed0c42c.chunk.js.map": "/Hunter_/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.058e78d8.css",
-    "static/js/main.b76f74f6.js"
+    "static/js/main.d32c096c.js"
   ]
 }
